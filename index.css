@@ -1,0 +1,56 @@
+.divcontainer{
+    height: 80vh;
+    width: 100vh;
+}
+
+.container{
+    width: 600px;
+    height: 50vh;
+   display: flex;
+   gap:40px;
+    
+}
+
+.container .bigimg{
+    width: 200px;
+    height: 50vh;
+}
+.parcontainer{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 20px;
+
+}
+.parcontainer .perfume{
+
+    font-size: 24px;
+    opacity: 0.2;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.price h1{
+    color:rgb(2, 69, 2);
+}
+.parcontainer .cartbtn{
+    padding:8px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(8, 114, 8, 0.723);
+}
+
+.parcontainer .cartbtn{
+display: flex;
+justify-content: center;
+justify-items: center;
+gap: 20px;
+}
+.parcontainer .cartbtn img{
+    width: 24px;
+    height: 24px;
+}
+.parcontainer .cartbtn .cartt{
+   color: white;
+   font-weight:bolder;
+}
